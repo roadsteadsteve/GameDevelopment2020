@@ -18,7 +18,7 @@ public class BoxBoyInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("hello world");
     	animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
     	animator.SetFloat("Vertical", Input.GetAxis("Vertical"));
 

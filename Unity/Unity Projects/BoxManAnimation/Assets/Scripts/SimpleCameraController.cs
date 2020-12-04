@@ -21,10 +21,11 @@ namespace UnityTemplateProjects
 
             public void SetFromTransform(Transform t)
             {
+                Debug.Log("hello world");
                 pitch = t.eulerAngles.x;
                 yaw = t.eulerAngles.y;
                 roll = t.eulerAngles.z;
-                x = t.position.x;
+                x = t.position.x + 10;
                 y = t.position.y;
                 z = t.position.z;
             }
