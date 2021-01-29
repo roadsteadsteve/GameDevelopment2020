@@ -26,12 +26,13 @@ public class Movement : MonoBehaviour
        	}
     		
    	    if (Input.GetKeyUp (KeyCode.Space)) {
-  			//transform.position=initialposition;
-      		transform.Translate(Vector3.down * Time.deltaTime*100);
+      		transform.Translate(Vector3.down * Time.deltaTime*120);
        		Debug.Log("Clicked");
-    	}
+        }
+
+          // transform.position=initialposition;
    		
-   		Debug.Log(transform.position);
+   		 Debug.Log(transform.position);
     }
 
     private void FixedUpdate() 

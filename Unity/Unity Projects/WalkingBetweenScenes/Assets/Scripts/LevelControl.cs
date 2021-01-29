@@ -23,7 +23,10 @@ public class LevelControl : MonoBehaviour
 				//Restart 1v1
 				//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 			}
-	}
+
+	
+	
+		}
 
 
 
@@ -38,4 +41,9 @@ public class LevelControl : MonoBehaviour
     {
         
     }
+
 }
+
+
+
+
