@@ -31,6 +31,7 @@ public class Movement : MonoBehaviour
        		Debug.Log("Clicked");
     	}
    		
+   		Debug.Log(transform.position);
     }
 
     private void FixedUpdate() 
