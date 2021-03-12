@@ -30,7 +30,7 @@ public class AnyManager : MonoBehaviour
     {
     	yield return null;
 
-    	SceneManager.UnloadScene(scene);
+    	SceneManager.UnloadSceneAsync(scene);
     }
 
 

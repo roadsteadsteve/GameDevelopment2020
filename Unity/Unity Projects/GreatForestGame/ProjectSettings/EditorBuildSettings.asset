@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/dom's never unload.unity
+    guid: cf6139652262c4aaa9def25b12fc6488
+  - enabled: 1
     path: Assets/Scenes/dom's set up scene.unity
     guid: a866edee8378a41ac9722f30c018686d
   - enabled: 1
